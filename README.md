@@ -127,7 +127,7 @@ Once the application is displayed correctly, submit one of the `Network` links a
 2. Select Edit App
 3. Choose Edit Web App URL
 
-# Troubleshooting:
+#### Troubleshooting:
 
 If you encounter issues accessing the app, you might need to use `127.0.0.1` instead of `localhost`. For example, try:
 `https://127.0.0.1:5173/reactjs-template`
