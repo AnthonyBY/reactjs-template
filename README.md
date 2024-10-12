@@ -121,16 +121,13 @@ browser, you will see the following warning:
 This browser warning is normal and can be safely ignored as long as the site is secure. Click
 the `Proceed to localhost (unsafe)` button to continue and view the application.
 
-Once the application is displayed correctly, submit one of the `Network` links as the Mini App link
-to [@BotFather](https://t.me/botfather).
+Once the application is displayed correctly, submit one of the `Network` links as the Mini App URL to @BotFather by the following commands inside [@BotFather](https://t.me/botfather):
 
-Once the application is displayed correctly, submit one of the `Network` links as the Mini App URL to @BotFather by the following commands inside BotFather:
-
-1. /myapps
+1. `/myapps`
 2. Select Edit App
 3. Choose Edit Web App URL
 
-### Troubleshooting:
+# Troubleshooting:
 
 If you encounter issues accessing the app, you might need to use `127.0.0.1` instead of `localhost`. For example, try:
 `https://127.0.0.1:5173/reactjs-template`
