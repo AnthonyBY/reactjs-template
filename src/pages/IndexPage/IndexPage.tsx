@@ -20,7 +20,31 @@ export const IndexPage: FC = () => {
             TON Connect
           </Cell>
         </Link>
+
       </Section>
+        {/* Red Background Section */}
+        <section style={{ backgroundColor: 'red', padding: '20px', textAlign: 'center' }}>
+        <h1 style={{ color: 'white' }}>Anton</h1>
+      </section>
+
+    {/* Button */}
+    <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
+        <button 
+          onClick={handleClick}
+          style={{ 
+            padding: '10px 20px', 
+            fontSize: '16px', 
+            backgroundColor: '#007AFF', 
+            color: 'white', 
+            border: 'none', 
+            borderRadius: '5px', 
+            cursor: 'pointer' 
+          }}
+        >
+          Click Me
+        </button>
+      </div>
+
       <Section
         header='Application Launch Data'
         footer='These pages help developer to learn more about current launch information'
@@ -37,4 +61,8 @@ export const IndexPage: FC = () => {
       </Section>
     </List>
   );
+};
+
+const handleClick = () => {
+  alert("Whooooo!");
 };
